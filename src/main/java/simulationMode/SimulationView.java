@@ -1,17 +1,9 @@
-package simulationmodus;
+package simulationMode;
 
-<<<<<<< HEAD:src/main/java/MainModel/SimulationMode.java
-package MainModel;
-=======
-package simulationmodus;
->>>>>>> 0dab554dbdfd64e63a8e00443dcdd4cb8a8f4956:src/main/java/simulationmodus/SimulationMode.java
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.ButtonBar;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
@@ -20,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class SimulationMode extends Application {
+public class SimulationView extends Application {
     // Simualtionmode
     // Button change Realtime mode
     Group SimulationRoot;

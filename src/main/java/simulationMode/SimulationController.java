@@ -1,4 +1,4 @@
-package simulationmodus;
+package simulationMode;
 
 public class SimulationController {
 
