@@ -1,4 +1,4 @@
-package simulationMode;
+package View;
 
 public class SimulationController {
 
