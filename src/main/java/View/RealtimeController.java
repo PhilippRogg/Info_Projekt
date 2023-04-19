@@ -1,6 +1,7 @@
 package View;
 
 import javafx.scene.Scene;
+import javafx.scene.shape.Rectangle;
 
 import java.io.Serializable;
 
@@ -20,8 +21,16 @@ public class RealtimeController {
         return realtimeView.scene;
     }
 
-    public void startRealTime(){
+    public RealtimeController() {
+        realtimeView.root.setCenter(new Rectangle(20,20));
+        realtimeView.root.setLeft(searchView.root);
+    }
+
+    /*
+    public startRealTime(){
         realtimeView.root.setLeft(searchView.root);
         //des Prinzip verfolgen
     }
+
+     */
 }

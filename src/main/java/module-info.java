@@ -4,5 +4,5 @@ module com.example.info_projekt {
 
 
     opens com.example.info_projekt to javafx.fxml;
-    exports com.example.info_projekt;
+    //exports com.example.info_projekt;
 }
