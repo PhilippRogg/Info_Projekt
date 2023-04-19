@@ -1,4 +1,4 @@
-package MainModel.Utils;
+package Utils;
 
 public class TestSearchUtils {
 }

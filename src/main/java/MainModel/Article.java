@@ -1,5 +1,5 @@
 package MainModel;
-
+/*
 
 import java.io.ObjectInputFilter;
 import java.util.ArrayList;
@@ -28,3 +28,5 @@ public class Article {
         }
     }
 }
+
+ */

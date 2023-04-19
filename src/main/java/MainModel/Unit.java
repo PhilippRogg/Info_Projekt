@@ -1,5 +1,5 @@
 package MainModel;
-
+/*
 import com.crazzyghost.alphavantage.timeseries.response.StockUnit;
 
 public class Unit {
@@ -60,3 +60,5 @@ public class Unit {
         return dateTime;
     }
 }
+
+ */

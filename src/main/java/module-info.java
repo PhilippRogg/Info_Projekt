@@ -3,6 +3,6 @@ module com.example.info_projekt {
     requires javafx.fxml;
 
 
-    opens com.example.info_projekt to javafx.fxml;
-    //exports com.example.info_projekt;
+    opens MainModel to javafx.fxml;
+    exports MainModel;
 }
