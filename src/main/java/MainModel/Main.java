@@ -19,7 +19,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         stage.setTitle("Aktienkurs");
         RealtimeController realtimeController = new RealtimeController();
-        Scene scene = new Scene(realtimeController)
+        Scene scene = realtimeController.getScene();
         stage.show();
     }
 
