@@ -7,5 +7,6 @@ public class RealtimeController {
     SearchView searchView = new SearchView();
     public void startRealTime(){
         realtimeView.root.setLeft(searchView.root);
+        //des Prinzip verfolgen
     }
 }
