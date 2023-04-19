@@ -40,17 +40,20 @@ public class GroundView {
 
     public GroundView() {
         root.setLeft(leftGroupBox);
+        scene = new Scene(root);
     }
+
+
 
     /*
     new Scene(controller.view.root)
      */
 
+/*
 
-    /**
      * Zeigt den Realtime Modus auf dem Bildschirm.
      *
-     */
+
     public void displayGraphic(Stage stage){
         root.getChildren().add(simulationModeButton);
         scene = new Scene(root, 500, 500);
@@ -58,4 +61,5 @@ public class GroundView {
         stage.setScene(scene);
         stage.show();
     }
+    */
 }

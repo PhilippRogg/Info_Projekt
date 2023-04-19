@@ -20,6 +20,7 @@ public class Main extends Application {
         stage.setTitle("Aktienkurs");
         RealtimeController realtimeController = new RealtimeController();
         Scene scene = realtimeController.getScene();
+        stage.setScene(scene);
         stage.show();
     }
 
