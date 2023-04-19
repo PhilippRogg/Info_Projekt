@@ -9,7 +9,7 @@ public class Article {
     private String name;
     public ArrayList<Unit> getValues() {
         return values;
-    }
+    }//asöldkfjas
 
     public Article(String str){
         this.name = str;
