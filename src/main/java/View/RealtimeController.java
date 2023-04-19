@@ -25,12 +25,4 @@ public class RealtimeController {
         realtimeView.root.setCenter(new Rectangle(20,20));
         realtimeView.root.setLeft(searchView.root);
     }
-
-    /*
-    public startRealTime(){
-        realtimeView.root.setLeft(searchView.root);
-        //des Prinzip verfolgen
-    }
-
-     */
 }

@@ -4,6 +4,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -35,6 +36,11 @@ public class GroundView {
     Text sharePriceText = new Text();
     Text sharePercentText = new Text();
 
+    VBox leftGroupBox = new VBox();
+
+    public GroundView() {
+        root.setLeft(leftGroupBox);
+    }
 
     /*
     new Scene(controller.view.root)
